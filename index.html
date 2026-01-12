@@ -1,0 +1,28 @@
+<h1 id="date"></h1>
+
+<div>
+  <button id="tab-today">今日</button>
+  <button id="tab-history">履歴</button>
+</div>
+
+<hr>
+
+<!-- 今日 -->
+<div id="today-view">
+  <label><input type="checkbox" data-time="morning"> 朝</label><br>
+  <label><input type="checkbox" data-time="noon"> 昼</label><br>
+  <label><input type="checkbox" data-time="evening"> 夕</label>
+
+  <p id="status"></p>
+</div>
+
+<!-- 履歴 -->
+<div id="history-view" style="display:none;">
+  <h3>過去の記録を編集</h3>
+  <input type="date" id="history-date">
+
+  <div id="history-edit"></div>
+
+  <h3>これまでの記録</h3>
+  <div id="history-list"></div>
+</div>
