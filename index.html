@@ -4,18 +4,22 @@
   <meta charset="UTF-8">
   <title>チェックアプリ</title>
 
-  <!-- ← ここが「headの中」 -->
+  <!-- CSSを読み込む -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <!-- ここに、これまで作ってきた画面のHTMLを書く -->
-  
   <h1>今日のチェック</h1>
 
-  <!-- 例 -->
   <label>
-    <input type="checkbox"> タスク1
+    <input type="checkbox" id="task1">
+    タスク1
   </label>
 
-  <!-- ← bodyの一番下
+  <p id="status"></p>
+  <div id="history"></div>
+
+  <!-- JSを読み込む（bodyの一番下が重要） -->
+  <script src="script.js"></script>
+</body>
+</html>
