@@ -1,28 +1,21 @@
-<h1 id="date"></h1>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>チェックアプリ</title>
 
-<div>
-  <button id="tab-today">今日</button>
-  <button id="tab-history">履歴</button>
-</div>
+  <!-- ← ここが「headの中」 -->
+  <link rel="stylesheet" href="style.css">
+</head>
 
-<hr>
+<body>
+  <!-- ここに、これまで作ってきた画面のHTMLを書く -->
+  
+  <h1>今日のチェック</h1>
 
-<!-- 今日 -->
-<div id="today-view">
-  <label><input type="checkbox" data-time="morning"> 朝</label><br>
-  <label><input type="checkbox" data-time="noon"> 昼</label><br>
-  <label><input type="checkbox" data-time="evening"> 夕</label>
+  <!-- 例 -->
+  <label>
+    <input type="checkbox"> タスク1
+  </label>
 
-  <p id="status"></p>
-</div>
-
-<!-- 履歴 -->
-<div id="history-view" style="display:none;">
-  <h3>過去の記録を編集</h3>
-  <input type="date" id="history-date">
-
-  <div id="history-edit"></div>
-
-  <h3>これまでの記録</h3>
-  <div id="history-list"></div>
-</div>
+  <!-- ← bodyの一番下
