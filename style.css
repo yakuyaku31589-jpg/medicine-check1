@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.done {
+  color: green;
+  font-weight: bold;
+}
+
+.history-row {
+  margin-bottom: 6px;
+}
